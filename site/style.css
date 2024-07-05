@@ -1,0 +1,160 @@
+
+  body{
+    background-color: rgb(228, 176, 240);
+    text-align: center;
+    position: center;
+  }
+
+   h1{
+     color:rgb(21, 9, 20);
+     font-family: "Lucida Handwriting", cursive;
+   }
+
+   h2{
+    font-size: 30px;
+    color: #181a21;
+    font-family: "Lucida Handwriting", cursive;
+   }
+
+   h4{
+    font-size: 20px;
+    color: #d91973;
+    font-family:Arial, Helvetica, sans-serif
+   }
+
+   p{
+    font-family:Verdana;
+    font-size: 17px;
+    color: rgb(51, 2, 63)
+
+   }
+   .Promoções{
+    background-image: url(capinha.png)
+   }
+
+   /*capa pag inicial*/
+div.d {
+  text-align: center;
+  background-image: url("capaa.png");
+  color: rgb(11, 21, 21);
+}
+
+   /*capa comunidade*/
+   div.b{
+    text-align: center;
+    background-image: url("Design\ 3.png");
+    
+   }
+  
+/*logotipo e menu*/
+    .logotipo {
+        image-orientation: from-image;
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+    
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow:hidden;
+        background-color: #ffffff3f;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display:block;
+        color: rgb(65, 4, 101);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-radius: 12px;
+
+      }
+      
+      li a:hover {
+        background-color: #1a3b9d30;
+      }
+
+
+     /* formulario*/
+
+     form{
+        position: center;
+     }
+
+     * {
+        box-sizing:border-box;
+      }
+
+     .container {
+        position: 0;
+        right:0;
+        margin: 20px;
+        max-width: 300px;
+        padding: 16px;
+        background-color: white;
+        justify-content: center;
+      }
+      
+      
+      input[type=text], input[type=telefone] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border:none;
+        background: #f982e7;
+        border-radius: 12px;
+      }
+      
+      input[type=text]:focus, input[type=telefone]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      
+      
+      .btn {
+        background-color: #5688b7cb;
+        color: rgb(4, 2, 13);
+        padding: 16px 20px;
+        border: none;
+        width: 50%;
+        opacity: 0.9;
+        border-radius: 12px;
+      }
+      
+      .btn:hover {
+        opacity: 1;
+      }
+      .container .btn:hover {
+        background-color: rgba(93, 28, 91, 0.322);
+      }
+
+
+      /*catalogo - promocoes*/ 
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        
+      }
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+/*rodape*/
+.footer {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(116, 5, 107);
+  text-align: center;
+}
